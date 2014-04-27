@@ -23,7 +23,7 @@ names(data)<-features[,2]
 data_all<-cbind(data,labels) 
 
 
-data_filtered <- data_all[, grepl("mean()|std()|Activity", colnames(data_all))]
+data_filtered <- data_all[, grepl("mean\\(\\)|std\\(\\)|Activity", colnames(data_all))]
 
 
 #changing activity values
