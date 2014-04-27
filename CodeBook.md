@@ -7,7 +7,7 @@ path - working directory
 
 
 train - X data of the train set
-test- X data of the test set
+test - X data of the test set
 data - merged test and train X 
 
 
@@ -21,7 +21,7 @@ labels - merged data
 features - variable that stores feature names 
 
 
-#merging overall 
+
 data_all - merging X and Y with feature names
 
 
